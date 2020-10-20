@@ -1,0 +1,54 @@
+#Dialog
+{
+background-color:white;
+}
+
+QPushButton
+{
+font-family: "Microsoft YaHei";
+color:white;
+background-color:#0e96fe;
+border-radius:2px;
+height:24px;
+font-size:12pt;
+font-weight:bold;
+}
+QPushButton:pressed{
+padding-left:2px;
+padding-top:2px;
+}
+
+QPushButton:disabled{
+padding-left:2px;
+padding-top:2px;
+background-color:#c1c1c1;
+}
+
+QLabel
+{
+font-family: "Microsoft YaHei";
+font-size:16px;
+font-weight:normal;
+}
+#label
+{
+font-family: "Microsoft YaHei";
+color:#e116ad;
+font-size:24px;
+font-weight:bold;
+}
+.a{
+text-decoration:none;
+}
+
+#label, #label_2, #label_3, #label_4, #label_5, #label_6
+{
+font-size: 14px;
+color: #3c3f41;
+font-style: normal;
+font-weight: normal;
+}
+
+#lineEdit, #textBrowser{
+border-color: #ffffff;
+}

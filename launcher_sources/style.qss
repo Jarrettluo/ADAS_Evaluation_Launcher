@@ -1,0 +1,76 @@
+QPushButton
+{
+font-family:"Microsoft Yahei";
+color:white;
+background-color:#0E96FE;
+border-radius:8px;
+height:24px;
+font-size:12pt;
+}
+QPushButton:pressed{
+padding-left:2px;
+padding-top:2px;
+}
+
+QPushButton:disabled {
+background-color: #F1F1F1;
+}
+
+QLabel {
+font-family: "Microsoft Yahei";
+font-size:10pt;
+}
+
+#pushButton, #pushButton_2, #pushButton_4{
+background-color:#ff7a45;
+}
+#pushButton:hover, #pushButton_2:hover, #pushButton_4:hover{
+background-color:#2C89FF;
+}
+#pushButton:pressed, #pushButton_2:pressed, #pushButton_4:pressed{
+background-color:#2C87E4;
+}
+#pushButton:disabled, #pushButton_2:disabled, #pushButton_4:disabled{
+background-color:#c1c1c1;
+}
+
+
+#pushButton_3, #pushButton_5, #pushButton_6, #pushButton_7, #pushButton_8{
+background-color:#3293ed;
+}
+#pushButton_3:hover, #pushButton_5:hover, #pushButton_6:hover, #pushButton_7:hover, #pushButton_8:hover{
+background-color:#2C89FF;
+}
+#pushButton_3:pressed, #pushButton_5:pressed, #pushButton_6:pressed, #pushButton_7:pressed, #pushButton_8:pressed{
+background-color:#2C87E4;
+}
+
+
+#pushButton_10, #pushButton_9, #pushButton_11{
+background-color:#52c41a;
+}
+#pushButton_10:hover, #pushButton_9:hover, #pushButton_11:hover {
+background-color:#2C89FF;
+}
+#pushButton_10:pressed, #pushButton_9:pressed, #pushButton_11:pressed{
+background-color:#2C87E4;
+}
+
+#label, #label_2, #label_3{
+color:#ff7a45;
+}
+
+#label_4, #label_5, #label_6, #label_7, #label_10{
+color:#3293ed;
+}
+
+
+#label_8, #label_9, #label_14{
+color:#52c41a;
+}
+
+#label_12, #label_13, #label_11{
+font-size: 14pt;
+font: "heiti";
+color: rgb(0, 0, 0);
+}
